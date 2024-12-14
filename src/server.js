@@ -30,7 +30,7 @@ app.use(csrfProtection);
 
 app.get('/api/news', async (req, res) => {
   try {
-    const response = await axios.get('https://news.google.com/rss');
+    const response = await axios.get('https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja');
     const feed = await parser.parseString(response.data);
     res.json(feed);
   } catch (error) {
