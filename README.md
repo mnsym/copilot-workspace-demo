@@ -1,2 +1,1 @@
-# copilot-workspace-demo
-A repository for reading Google News RSS feeds
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
