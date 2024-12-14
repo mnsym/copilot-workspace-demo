@@ -6,8 +6,8 @@ This is a single page application that reads Google News RSS feed and renders it
 
 1. Clone the repository:
    ```
-   git clone https://github.com/githubnext/workspace-blank.git
-   cd workspace-blank
+   git clone https://github.com/mnsym/copilot-workspace-demo.git
+   cd copilot-workspace-demo
    ```
 
 2. Install dependencies:
@@ -34,6 +34,15 @@ yarn start:frontend
 ```
 
 The frontend development server will be running on `http://localhost:8080`.
+
+## Creating bundle.js
+
+To create the `bundle.js` file, run:
+```
+yarn build
+```
+
+This will use the `webpack` configuration specified in `webpack.config.js` to create the `bundle.js` file in the `dist` directory.
 
 ## Dependencies
 
